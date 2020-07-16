@@ -1,0 +1,45 @@
+@import url(./__add-button/cards__add-button.css);
+@import url(./__box/cards__box.css);
+@import url(./__course/cards__course.css);
+@import url(./__diploma/cards__diploma.css);
+@import url(./__duration/cards__duration.css);
+@import url(./__item/cards__item.css);
+@import url(./__subject/cards__subject.css);
+@import url(./__clock/cards__clock.css);
+@import url(./__textbook/cards__textbook.css);
+@import url(./__container/cards__container.css);
+@import url(./__text/cards__text.css);
+@import url(./__done-fill/cards__done-fill.css);
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    max-width: 1180px;
+    margin: 0 auto;
+    /* отступ для демо */
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 1190px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 780px;
+        row-gap: 20px;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .cards {
+        grid-template-columns: 1fr;
+        max-width: 380px;
+    }
+}
+
+@media (max-width: 500px) {
+    .cards {
+        max-width: 320px;
+    }
+}

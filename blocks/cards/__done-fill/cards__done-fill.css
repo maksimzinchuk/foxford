@@ -1,0 +1,10 @@
+.cards__done-fill {
+    background-image: url(../../../images/done_fill.svg);
+    background-repeat: no-repeat;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    visibility: hidden;
+}

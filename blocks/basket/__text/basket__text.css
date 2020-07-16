@@ -1,0 +1,13 @@
+.basket__text {
+    color: #48A1E6;
+    font-size: 18px;
+    line-height: 24px;
+    width: 84px;
+    align-self: center;
+    transition: opacity ease-in 0.2s;
+}
+
+.basket__text:hover {
+    opacity: 0.8;
+    cursor: pointer;
+} 

@@ -1,0 +1,26 @@
+.cards__add-button{
+    width: 300px;
+    height: 52px;
+    background: #48A1E6;
+    border-style: none;
+    border-radius: 5px;
+    padding: 0;
+    text-align: center;
+    color: #ffffff;
+    outline: none;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0;
+    transition: opacity ease-in 0.2s;
+}
+
+.cards__add-button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+} 
+
+@media (max-width: 500px) {
+    .cards__add-button {
+        width: 255px;
+    }
+}

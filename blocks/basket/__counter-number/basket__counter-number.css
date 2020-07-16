@@ -1,0 +1,10 @@
+.basket__counter-number {
+    margin-left: 12px;
+    margin-top: 6px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    visibility: hidden;
+}

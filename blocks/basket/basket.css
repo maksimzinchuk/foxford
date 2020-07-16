@@ -1,0 +1,23 @@
+@import url(./__container/basket__container.css);
+@import url(./__image/basket__image.css);
+@import url(./__counter-image/basket__counter-image.css);
+@import url(./__text/basket__text.css);
+@import url(./__counter-number/basket__counter-number.css);
+
+.basket {
+    width: 282px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 1px solid #48A1E6;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    position: absolute;
+    top: 198px;
+    right: 0; 
+}
+
+@media (max-width: 1770px) {
+    .basket {
+        top: 80px;
+    }
+}

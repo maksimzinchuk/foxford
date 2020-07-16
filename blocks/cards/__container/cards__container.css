@@ -1,0 +1,8 @@
+.cards__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards__container:first-of-type {
+    margin-bottom: 16px;
+}

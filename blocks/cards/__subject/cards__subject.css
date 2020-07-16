@@ -1,0 +1,11 @@
+.cards__subject {
+    font-size: 14px;
+    font-style: normal;
+    margin: 0;
+}
+
+@media (max-width: 500px) {
+    .cards__subject {
+        font-size: 12px;
+    }
+}

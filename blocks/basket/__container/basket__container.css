@@ -1,0 +1,7 @@
+.basket__container {
+    display: flex;
+    flex-direction: row;
+    width: 176px;
+    margin-left: 41px;
+    margin-top: 16px;
+}

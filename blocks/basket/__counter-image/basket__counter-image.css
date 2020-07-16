@@ -1,0 +1,10 @@
+.basket__counter-image {
+    width: 32px;
+    height: 32px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    background: #F94B28;
+    position: absolute;
+    right: 0;
+    visibility: hidden;
+}

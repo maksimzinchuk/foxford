@@ -1,0 +1,14 @@
+.cards__item {
+    width: 380px;
+    height: 444px;
+    background-color: #ffffff;
+    border-radius: 5px;  
+    position: relative; 
+}
+
+@media (max-width: 500px) {
+    .cards__item {
+        width: 320px;
+        height: 372px;
+    }
+}

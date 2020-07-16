@@ -1,0 +1,5 @@
+.cards__add-button_active {
+    border: 1px solid #48A1E6;
+    background: #ffffff;
+    color: #48A1E6;
+}

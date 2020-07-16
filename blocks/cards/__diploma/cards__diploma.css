@@ -1,0 +1,11 @@
+.cards__diploma {
+    font-size: 14px;
+    font-style: normal;
+    margin: 0 0 0 8px;
+}
+
+@media (max-width: 500px) {
+    .cards__diploma {
+        font-size: 12px;
+    }
+}

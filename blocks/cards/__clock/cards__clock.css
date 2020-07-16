@@ -1,0 +1,14 @@
+.cards__clock {
+    background-image: url(../../../images/clock.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+}
+
+@media (max-width: 500px) {
+    .cards__clock {
+        height: 14px;
+        width: 14px;
+        background-size: 14px 14px;
+    }
+}

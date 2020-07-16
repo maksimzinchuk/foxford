@@ -1,0 +1,9 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/basket/basket.css);
+@import url(../blocks/cards/__add-button/_active/cards__add-button_active.css);
+@import url(../blocks/cards/__done-fill/_active/cards__done-fill_active.css);
+@import url(../blocks/basket/__counter-image/_active/basket__counter-image_active.css);
+@import url(../blocks/basket/__counter-number/_active/basket__counter-number_active.css);

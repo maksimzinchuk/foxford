@@ -1,0 +1,15 @@
+.cards__textbook {
+    background-image: url(../../../images/textbook.svg);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 16px;
+    background-size: 16px 16px;
+}
+
+@media (max-width: 500px) {
+    .cards__textbook {
+        height: 14px;
+        width: 14px;
+        background-size: 14px 14px;
+    }
+}

@@ -1,0 +1,16 @@
+.cards__box {
+    width: 300px;
+    height: 360px;
+    margin: 44px auto 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;  
+}
+
+@media (max-width: 500px) {
+    .cards__box {
+        width: 255px;
+        height: 306px;
+        margin: 33px auto;
+    }
+}
